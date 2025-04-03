@@ -4,7 +4,7 @@ export default function ProjectsSidebar() {
   const [testValue, setTestValue] = React.useState(5);
 
   function clickHandler() {
-    setTestValue((prev) => prev + 5);
+    setTestValue((prev) => prev + 55);
   }
   return (
     <aside>
